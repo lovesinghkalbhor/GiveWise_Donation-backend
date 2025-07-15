@@ -20,7 +20,7 @@ app.use(express.static(path.join(__dirname, "../public")));
 app.use(cookieparser());
 app.set("view engine", "ejs");
 
-// Start the server
+// Start the server on 5000 port
 const PORT = 5000;
 
 import { userRouter } from "./routes/user.routes";
