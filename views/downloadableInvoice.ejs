@@ -144,21 +144,18 @@
       <div class="logo">
         <!-- <img src="http://localhost:3000/images/AnubhutiLogo.png" alt="" /> -->
         <!-- for server -->
-        <img
-          src="https://anubhutivisionss.com/images/AnubhutiLogo.png"
-          alt=""
-        />
+        <img src="<%=BASE_PUBLIC_URL%>/images/AnubhutiLogo.png" alt="" />
       </div>
       <div class="org-details">
         <div class="reg-number">
-          Registration No. & Date : 11730/09 - 06 May 2009
+          Registration No. & Date : 10831/01 - 01 Jan 2011
         </div>
-        <div class="org-name">ANUBHUTI VISION SEVA SANSTHAN</div>
+        <div class="org-name">GIVEWISE DONATION CRM</div>
         <div class="org-address">
           68-2 Mayakhedi, Near Omaxe City-I, Bypass Road, Indore, (M.P.)
           India<br />
           Regd. Off. : 203-A, Slice No. 4, Scheme No. 78, Aranya Nagar,<br />
-          Indore. Phone: 0731-4050114, Mobile : 98267-44114
+          Indore. Mobile : 9340233410
         </div>
       </div>
       <div class="receipt-number">
@@ -217,7 +214,7 @@
             </div>
             <div>
               <label>For : </label>
-              <span>Anubhuti Vision Seva Sansthan</span>
+              <span>GIVEWISE DONATION CRM</span>
             </div>
           </div>
         </div>
@@ -226,7 +223,9 @@
       <div class="donation-info">
         Donation Exempted U/S 80G of IT ACT<br />
         CIT-I/Ind/Tech/80-G/20/2011-12<br />
-        PAN No.: AABAA7262L
+        PAN No.: AACAA8272K
+        <br />
+        All the information displayed is fake and is for testing purposes.
       </div>
 
       <div class="footer">
@@ -239,24 +238,6 @@
       </div>
     </form>
 
-    <!-- <button
-      onclick="downloadPDFButton(`<%= downloadUrl %>`, `<%= donation.receiptNo %>`)"
-    >
-      Download as PDF
-    </button> -->
-
-    <!-- <script>
-      async function downloadPDFButton(downloadUrl, receiptNo) {
-        console.log(downloadUrl);
-        const pdfUrl = `${downloadUrl}=${receiptNo}`; // Replace with your PDF URL
-        const anchor = document.createElement("a");
-        anchor.href = pdfUrl;
-        // Append the anchor to the document, trigger the click, then remove it
-        document.body.appendChild(anchor);
-        anchor.click();
-        document.body.removeChild(anchor);
-      }
-    </script> -->
     <script>
       function capitalizeFirstLetter(text) {
         if (!text) {
