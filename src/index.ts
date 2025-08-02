@@ -21,7 +21,7 @@ app.use(cookieparser());
 app.set("view engine", "ejs");
 
 // Start the server on 5000 port
-const PORT = 5000;
+const PORT = process.env.PORT || 5000;
 
 import { userRouter } from "./routes/user.routes";
 import { donationRouter } from "./routes/donations.routes";
