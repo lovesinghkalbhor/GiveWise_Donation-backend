@@ -4,3 +4,4 @@ node_modules
 .zip
 .env.local
 .env.production
+dist
